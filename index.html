@@ -10,8 +10,8 @@
   <script src="https://kit.fontawesome.com/6e63925041.js" crossorigin="anonymous"></script>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>TODO-APP</title>
-  <script type="module" crossorigin src="/fed22d-js-grundkurs-2-todo-tittieth/assets/index.6223e15e.js"></script>
-  <link rel="stylesheet" href="/fed22d-js-grundkurs-2-todo-tittieth/assets/index.ecb83dff.css">
+  <script type="module" crossorigin src="/fed22d-js-grundkurs-2-todo-tittieth/assets/index.582f4aad.js"></script>
+  <link rel="stylesheet" href="/fed22d-js-grundkurs-2-todo-tittieth/assets/index.0b8b5309.css">
 </head>
 
 <body>
@@ -70,9 +70,22 @@
         <input type="submit" value="Add Todo">
       </form>
     </section>
+
+    <div class="sort">
+      <h2>Todo list</h2>
+      <div class="sort-options">
+        <i class="fa-solid fa-sort"></i>
+        <select name="sort" id="sort">
+          <option value="">Sortera efter</option>
+          <option value="name">Name</option>
+          <option value="added-date">Added date</option>
+          <option value="due-date">Due date</option>
+          <option value="category">Category</option>
+        </select>
+      </div>
+    </div>
       
     <section class="todo-list">
-      <h2>Todo list</h2>
       <div class="list" id="todo-list"></div>
     </section>
 
